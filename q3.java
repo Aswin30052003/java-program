@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class q3 {
+    public static void main(String[] args) {
+
+
+        Scanner scan = new Scanner(System.in);
+        String name = scan.nextLine();
+        String department = scan.nextLine();
+        float score = scan.nextFloat();
+
+
+        System.out.println("my name is "+ name);
+        System.out.println("my department is" + department);
+        System.out.println("my score is" + score/10);
+        
+      
+    }
+    
+}
